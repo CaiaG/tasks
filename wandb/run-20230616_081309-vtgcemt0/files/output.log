@@ -1,0 +1,21 @@
+[I 2023-06-16 08:13:17,659] A new study created in memory with name: no-name-39a10e78-0a7a-4e49-ace5-4b8074ec99a2
+[W 2023-06-16 08:13:17,664] Trial 0 failed with parameters: {'learning_rate': 3.171561204378862e-05} because of the following error: The value <function accuracy at 0x000001595B3A5D80> could not be cast to float..
+[W 2023-06-16 08:13:17,664] Trial 0 failed with value <function accuracy at 0x000001595B3A5D80>.
+[W 2023-06-16 08:13:17,669] Trial 1 failed with parameters: {'learning_rate': 1.1221737488973124e-05} because of the following error: The value <function accuracy at 0x000001595B3A5D80> could not be cast to float..
+[W 2023-06-16 08:13:17,671] Trial 1 failed with value <function accuracy at 0x000001595B3A5D80>.
+[W 2023-06-16 08:13:17,674] Trial 2 failed with parameters: {'learning_rate': 0.045095764304186145} because of the following error: The value <function accuracy at 0x000001595B3A5D80> could not be cast to float..
+[W 2023-06-16 08:13:17,674] Trial 2 failed with value <function accuracy at 0x000001595B3A5D80>.
+[W 2023-06-16 08:13:17,674] Trial 3 failed with parameters: {'learning_rate': 0.004143499138220784} because of the following error: The value <function accuracy at 0x000001595B3A5D80> could not be cast to float..
+[W 2023-06-16 08:13:17,678] Trial 3 failed with value <function accuracy at 0x000001595B3A5D80>.
+[W 2023-06-16 08:13:17,678] Trial 4 failed with parameters: {'learning_rate': 9.017026175473898e-05} because of the following error: The value <function accuracy at 0x000001595B3A5D80> could not be cast to float..
+[W 2023-06-16 08:13:17,682] Trial 4 failed with value <function accuracy at 0x000001595B3A5D80>.
+[W 2023-06-16 08:13:17,682] Trial 5 failed with parameters: {'learning_rate': 0.015268875077967278} because of the following error: The value <function accuracy at 0x000001595B3A5D80> could not be cast to float..
+[W 2023-06-16 08:13:17,687] Trial 5 failed with value <function accuracy at 0x000001595B3A5D80>.
+[W 2023-06-16 08:13:17,691] Trial 6 failed with parameters: {'learning_rate': 3.6581294834971474e-05} because of the following error: The value <function accuracy at 0x000001595B3A5D80> could not be cast to float..
+[W 2023-06-16 08:13:17,691] Trial 6 failed with value <function accuracy at 0x000001595B3A5D80>.
+[W 2023-06-16 08:13:17,695] Trial 7 failed with parameters: {'learning_rate': 0.0004033296577734888} because of the following error: The value <function accuracy at 0x000001595B3A5D80> could not be cast to float..
+[W 2023-06-16 08:13:17,695] Trial 7 failed with value <function accuracy at 0x000001595B3A5D80>.
+[W 2023-06-16 08:13:17,695] Trial 8 failed with parameters: {'learning_rate': 0.00032568672769556125} because of the following error: The value <function accuracy at 0x000001595B3A5D80> could not be cast to float..
+[W 2023-06-16 08:13:17,699] Trial 8 failed with value <function accuracy at 0x000001595B3A5D80>.
+[W 2023-06-16 08:13:17,699] Trial 9 failed with parameters: {'learning_rate': 0.007464479239812579} because of the following error: The value <function accuracy at 0x000001595B3A5D80> could not be cast to float..
+[W 2023-06-16 08:13:17,703] Trial 9 failed with value <function accuracy at 0x000001595B3A5D80>.

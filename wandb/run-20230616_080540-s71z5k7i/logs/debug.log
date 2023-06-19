@@ -1,0 +1,264 @@
+2023-06-16 08:05:40,423 INFO    MainThread:8416 [wandb_setup.py:_flush():76] Current SDK version is 0.15.4
+2023-06-16 08:05:40,423 INFO    MainThread:8416 [wandb_setup.py:_flush():76] Configure stats pid to 8416
+2023-06-16 08:05:40,423 INFO    MainThread:8416 [wandb_setup.py:_flush():76] Loading settings from C:\Users\caiay\.config\wandb\settings
+2023-06-16 08:05:40,423 INFO    MainThread:8416 [wandb_setup.py:_flush():76] Loading settings from c:\Users\caiay\Downloads\blah blah\wandb\settings
+2023-06-16 08:05:40,423 INFO    MainThread:8416 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-06-16 08:05:40,423 INFO    MainThread:8416 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-06-16 08:05:40,423 INFO    MainThread:8416 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-06-16 08:05:40,427 INFO    MainThread:8416 [wandb_init.py:_log_setup():507] Logging user logs to c:\Users\caiay\Downloads\blah blah\wandb\run-20230616_080540-s71z5k7i\logs\debug.log
+2023-06-16 08:05:40,427 INFO    MainThread:8416 [wandb_init.py:_log_setup():508] Logging internal logs to c:\Users\caiay\Downloads\blah blah\wandb\run-20230616_080540-s71z5k7i\logs\debug-internal.log
+2023-06-16 08:05:40,427 INFO    MainThread:8416 [wandb_init.py:_jupyter_setup():453] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001594118B7C0>
+2023-06-16 08:05:40,427 INFO    MainThread:8416 [wandb_init.py:init():547] calling init triggers
+2023-06-16 08:05:40,427 INFO    MainThread:8416 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.02, 'architecture': 'DCNN', 'dataset': 'CIFAR-10', 'epochs': 7}
+2023-06-16 08:05:40,427 INFO    MainThread:8416 [wandb_init.py:init():596] starting backend
+2023-06-16 08:05:40,427 INFO    MainThread:8416 [wandb_init.py:init():600] setting up manager
+2023-06-16 08:05:40,441 INFO    MainThread:8416 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-06-16 08:05:40,462 INFO    MainThread:8416 [wandb_init.py:init():606] backend started and connected
+2023-06-16 08:05:40,466 INFO    MainThread:8416 [wandb_run.py:_label_probe_notebook():1235] probe notebook
+2023-06-16 08:05:40,470 INFO    MainThread:8416 [wandb_run.py:_label_probe_notebook():1245] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-06-16 08:05:40,470 INFO    MainThread:8416 [wandb_init.py:init():703] updated telemetry
+2023-06-16 08:05:40,614 INFO    MainThread:8416 [wandb_init.py:init():736] communicating run to backend with 60.0 second timeout
+2023-06-16 08:05:41,869 INFO    MainThread:8416 [wandb_run.py:_on_init():2176] communicating current version
+2023-06-16 08:05:42,039 INFO    MainThread:8416 [wandb_run.py:_on_init():2185] got version response 
+2023-06-16 08:05:42,039 INFO    MainThread:8416 [wandb_init.py:init():787] starting run threads in backend
+2023-06-16 08:05:42,430 INFO    MainThread:8416 [wandb_run.py:_console_start():2155] atexit reg
+2023-06-16 08:05:42,430 INFO    MainThread:8416 [wandb_run.py:_redirect():2010] redirect: SettingsConsole.WRAP_RAW
+2023-06-16 08:05:42,430 INFO    MainThread:8416 [wandb_run.py:_redirect():2075] Wrapping output streams.
+2023-06-16 08:05:42,430 INFO    MainThread:8416 [wandb_run.py:_redirect():2100] Redirects installed.
+2023-06-16 08:05:42,434 INFO    MainThread:8416 [wandb_init.py:init():828] run started, returning control to user process
+2023-06-16 08:05:42,451 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.00480603575623285 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,451 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.00480603575623285 None
+2023-06-16 08:05:42,460 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.008419312521691756 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,460 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.008419312521691756 None
+2023-06-16 08:05:42,473 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.09966164104630239 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,473 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.09966164104630239 None
+2023-06-16 08:05:42,479 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.0005988857137281432 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,483 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.0005988857137281432 None
+2023-06-16 08:05:42,489 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.0031159658530580704 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,494 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.0031159658530580704 None
+2023-06-16 08:05:42,500 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.05099058155011809 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,500 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.05099058155011809 None
+2023-06-16 08:05:42,511 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.04146431622428654 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,511 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.04146431622428654 None
+2023-06-16 08:05:42,522 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.0009711372136002512 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,522 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.0009711372136002512 None
+2023-06-16 08:05:42,529 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.00016413341639693075 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,529 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.00016413341639693075 None
+2023-06-16 08:05:42,540 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.00043591140813573374 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,540 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.00043591140813573374 None
+2023-06-16 08:05:42,553 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.04050330891350134 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,553 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.04050330891350134 None
+2023-06-16 08:05:42,564 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.004144281431679569 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,564 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.004144281431679569 None
+2023-06-16 08:05:42,577 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 2.604586142779344e-05 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,577 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 2.604586142779344e-05 None
+2023-06-16 08:05:42,589 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 3.884333181323398e-05 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,589 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 3.884333181323398e-05 None
+2023-06-16 08:05:42,601 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 2.7959460231119722e-05 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,601 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 2.7959460231119722e-05 None
+2023-06-16 08:05:42,615 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.0007621932915807112 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,615 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.0007621932915807112 None
+2023-06-16 08:05:42,619 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.004828035384328509 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,623 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.004828035384328509 None
+2023-06-16 08:05:42,633 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.036412785284637865 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,633 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.036412785284637865 None
+2023-06-16 08:05:42,644 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.003193206889342081 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,644 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.003193206889342081 None
+2023-06-16 08:05:42,652 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.04094380387932702 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,656 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.04094380387932702 None
+2023-06-16 08:05:42,667 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.011234703589231327 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,667 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.011234703589231327 None
+2023-06-16 08:05:42,676 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.06093497517247443 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,676 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.06093497517247443 None
+2023-06-16 08:05:42,687 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 2.739973720308375e-05 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,687 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 2.739973720308375e-05 None
+2023-06-16 08:05:42,699 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.0002049919111968704 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,699 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.0002049919111968704 None
+2023-06-16 08:05:42,711 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 7.913397581678289e-05 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,711 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 7.913397581678289e-05 None
+2023-06-16 08:05:42,720 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.007800369455864964 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,720 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.007800369455864964 None
+2023-06-16 08:05:42,732 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.025340608054122415 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,732 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.025340608054122415 None
+2023-06-16 08:05:42,746 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.0004541924346936665 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,746 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.0004541924346936665 None
+2023-06-16 08:05:42,758 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.005744904088902117 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,759 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.005744904088902117 None
+2023-06-16 08:05:42,767 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.08623982413285294 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,767 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.08623982413285294 None
+2023-06-16 08:05:42,779 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.00018419530232718207 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,779 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.00018419530232718207 None
+2023-06-16 08:05:42,791 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 4.366500364592477e-05 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,792 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 4.366500364592477e-05 None
+2023-06-16 08:05:42,800 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.0157568874850567 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,800 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.0157568874850567 None
+2023-06-16 08:05:42,811 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.00015749280596590452 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,811 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.00015749280596590452 None
+2023-06-16 08:05:42,821 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.0001617352474589842 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,823 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.0001617352474589842 None
+2023-06-16 08:05:42,829 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.0030485734036257823 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,829 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.0030485734036257823 None
+2023-06-16 08:05:42,840 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.01996796865195234 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,840 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.01996796865195234 None
+2023-06-16 08:05:42,850 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.00015104470191973325 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,850 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.00015104470191973325 None
+2023-06-16 08:05:42,858 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.0016978686490999124 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,862 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.0016978686490999124 None
+2023-06-16 08:05:42,869 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.001097884784723325 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,869 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.001097884784723325 None
+2023-06-16 08:05:42,881 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.011253791551576717 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,881 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.011253791551576717 None
+2023-06-16 08:05:42,889 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.03014467487249641 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,894 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.03014467487249641 None
+2023-06-16 08:05:42,901 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.000205218406021905 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,901 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.000205218406021905 None
+2023-06-16 08:05:42,913 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.00020573108479310075 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,913 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.00020573108479310075 None
+2023-06-16 08:05:42,924 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.037802312165322184 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,924 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.037802312165322184 None
+2023-06-16 08:05:42,939 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.08883850250545591 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,939 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.08883850250545591 None
+2023-06-16 08:05:42,949 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.0028869804180312324 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,949 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.0028869804180312324 None
+2023-06-16 08:05:42,959 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.0001061999822464538 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,959 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.0001061999822464538 None
+2023-06-16 08:05:42,974 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.0003379691669470809 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,975 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.0003379691669470809 None
+2023-06-16 08:05:42,984 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.0002351031043287273 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,984 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.0002351031043287273 None
+2023-06-16 08:05:42,994 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.0003003011864670969 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:42,994 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.0003003011864670969 None
+2023-06-16 08:05:43,007 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.04625107256007357 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,009 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.04625107256007357 None
+2023-06-16 08:05:43,019 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.0011676821277183203 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,019 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.0011676821277183203 None
+2023-06-16 08:05:43,030 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.005366666876852838 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,030 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.005366666876852838 None
+2023-06-16 08:05:43,040 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 1.3835780799437457e-05 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,040 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 1.3835780799437457e-05 None
+2023-06-16 08:05:43,051 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.003135849914328052 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,051 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.003135849914328052 None
+2023-06-16 08:05:43,061 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 2.3315866208469898e-05 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,061 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 2.3315866208469898e-05 None
+2023-06-16 08:05:43,073 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.05485423963673647 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,073 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.05485423963673647 None
+2023-06-16 08:05:43,084 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.00035374590843837946 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,084 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.00035374590843837946 None
+2023-06-16 08:05:43,094 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.0011847896782103489 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,094 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.0011847896782103489 None
+2023-06-16 08:05:43,109 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 2.9910254720747516e-05 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,109 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 2.9910254720747516e-05 None
+2023-06-16 08:05:43,120 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.0013328848143933953 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,123 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.0013328848143933953 None
+2023-06-16 08:05:43,131 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.00026564360459212157 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,131 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.00026564360459212157 None
+2023-06-16 08:05:43,145 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.001070043866234426 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,145 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.001070043866234426 None
+2023-06-16 08:05:43,156 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.0021245300735308827 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,156 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.0021245300735308827 None
+2023-06-16 08:05:43,168 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.002238156130542877 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,168 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.002238156130542877 None
+2023-06-16 08:05:43,178 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.057722225740960593 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,178 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.057722225740960593 None
+2023-06-16 08:05:43,191 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 3.2531689879996375e-05 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,191 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 3.2531689879996375e-05 None
+2023-06-16 08:05:43,204 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.00022847038212094804 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,204 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.00022847038212094804 None
+2023-06-16 08:05:43,216 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.0014912474358833774 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,216 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.0014912474358833774 None
+2023-06-16 08:05:43,224 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.00029405577409117976 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,224 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.00029405577409117976 None
+2023-06-16 08:05:43,238 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.009949623224118194 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,239 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.009949623224118194 None
+2023-06-16 08:05:43,249 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.034000394560915526 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,249 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.034000394560915526 None
+2023-06-16 08:05:43,259 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.00021360970680838517 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,259 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.00021360970680838517 None
+2023-06-16 08:05:43,269 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.01810323640142791 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,269 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.01810323640142791 None
+2023-06-16 08:05:43,279 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.0006657645260400376 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,279 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.0006657645260400376 None
+2023-06-16 08:05:43,290 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.019494257516943333 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,290 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.019494257516943333 None
+2023-06-16 08:05:43,299 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 6.656793630646877e-05 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,299 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 6.656793630646877e-05 None
+2023-06-16 08:05:43,309 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.0002287373349460922 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,309 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.0002287373349460922 None
+2023-06-16 08:05:43,316 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.0033935063521109963 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,316 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.0033935063521109963 None
+2023-06-16 08:05:43,329 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 1.9082301201348037e-05 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,329 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 1.9082301201348037e-05 None
+2023-06-16 08:05:43,337 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.006245286011747654 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,337 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.006245286011747654 None
+2023-06-16 08:05:43,341 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.08417139396181549 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,341 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.08417139396181549 None
+2023-06-16 08:05:43,360 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 2.485545258740808e-05 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,360 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 2.485545258740808e-05 None
+2023-06-16 08:05:43,372 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.003565567882326712 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,372 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.003565567882326712 None
+2023-06-16 08:05:43,384 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.0015322127951186415 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,384 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.0015322127951186415 None
+2023-06-16 08:05:43,392 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.06095060296767509 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,392 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.06095060296767509 None
+2023-06-16 08:05:43,400 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 1.5624267584149816e-05 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,404 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 1.5624267584149816e-05 None
+2023-06-16 08:05:43,412 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.001957607886398196 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,412 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.001957607886398196 None
+2023-06-16 08:05:43,421 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.019181307976464078 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,423 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.019181307976464078 None
+2023-06-16 08:05:43,431 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 9.250229620294561e-05 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,431 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 9.250229620294561e-05 None
+2023-06-16 08:05:43,439 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.03550623395755278 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,439 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.03550623395755278 None
+2023-06-16 08:05:43,450 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.002473674923845499 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,450 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.002473674923845499 None
+2023-06-16 08:05:43,458 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.0001157987848831578 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,462 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.0001157987848831578 None
+2023-06-16 08:05:43,468 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.00022682652384644646 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,472 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.00022682652384644646 None
+2023-06-16 08:05:43,481 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.004789271962918029 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,481 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.004789271962918029 None
+2023-06-16 08:05:43,492 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.00818830326663663 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,492 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.00818830326663663 None
+2023-06-16 08:05:43,506 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.028254759084588067 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,507 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.028254759084588067 None
+2023-06-16 08:05:43,516 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.005893173468079629 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,516 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.005893173468079629 None
+2023-06-16 08:05:43,527 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.001815410526363042 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595DBD0D00>>
+2023-06-16 08:05:43,527 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.001815410526363042 None
+2023-06-16 08:05:46,543 INFO    MainThread:8416 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-06-16 08:05:46,543 INFO    MainThread:8416 [wandb_init.py:_pause_backend():418] pausing backend
+2023-06-16 08:11:54,829 INFO    MainThread:8416 [wandb_init.py:_resume_backend():423] resuming backend
+2023-06-16 08:11:54,931 INFO    MainThread:8416 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-06-16 08:11:54,931 INFO    MainThread:8416 [wandb_init.py:_pause_backend():418] pausing backend
+2023-06-16 08:11:54,963 INFO    MainThread:8416 [wandb_init.py:_resume_backend():423] resuming backend
+2023-06-16 08:12:00,606 INFO    MainThread:8416 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-06-16 08:12:00,606 INFO    MainThread:8416 [wandb_init.py:_pause_backend():418] pausing backend
+2023-06-16 08:12:00,626 INFO    MainThread:8416 [wandb_init.py:_resume_backend():423] resuming backend
+2023-06-16 08:12:00,630 INFO    MainThread:8416 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-06-16 08:12:00,630 INFO    MainThread:8416 [wandb_init.py:_pause_backend():418] pausing backend
+2023-06-16 08:12:00,677 INFO    MainThread:8416 [wandb_init.py:_resume_backend():423] resuming backend
+2023-06-16 08:12:00,929 INFO    MainThread:8416 [wandb_setup.py:_flush():76] Current SDK version is 0.15.4
+2023-06-16 08:12:00,929 INFO    MainThread:8416 [wandb_setup.py:_flush():76] Configure stats pid to 8416
+2023-06-16 08:12:00,929 INFO    MainThread:8416 [wandb_setup.py:_flush():76] Loading settings from C:\Users\caiay\.config\wandb\settings
+2023-06-16 08:12:00,929 INFO    MainThread:8416 [wandb_setup.py:_flush():76] Loading settings from c:\Users\caiay\Downloads\blah blah\wandb\settings
+2023-06-16 08:12:00,929 INFO    MainThread:8416 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-06-16 08:12:00,929 INFO    MainThread:8416 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-06-16 08:12:00,933 INFO    MainThread:8416 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-06-16 08:12:00,933 INFO    MainThread:8416 [wandb_init.py:_log_setup():507] Logging user logs to c:\Users\caiay\Downloads\blah blah\wandb\run-20230616_081200-x3a1b9i6\logs\debug.log
+2023-06-16 08:12:00,933 INFO    MainThread:8416 [wandb_init.py:_log_setup():508] Logging internal logs to c:\Users\caiay\Downloads\blah blah\wandb\run-20230616_081200-x3a1b9i6\logs\debug-internal.log
+2023-06-16 08:12:00,933 INFO    MainThread:8416 [wandb_init.py:init():547] calling init triggers
+2023-06-16 08:12:00,933 INFO    MainThread:8416 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.02, 'architecture': 'DCNN', 'dataset': 'CIFAR-10', 'epochs': 7}
+2023-06-16 08:12:00,933 INFO    MainThread:8416 [wandb_init.py:init():571] re-initializing run, found existing run on stack: s71z5k7i
+2023-06-16 08:12:00,944 INFO    MainThread:8416 [wandb_run.py:_finish():1890] finishing run teamgelli/my-awesome-project/s71z5k7i
+2023-06-16 08:12:00,957 ERROR   MainThread:8416 [jupyter.py:save_history():437] Run pip install nbformat to save notebook history
+2023-06-16 08:12:00,957 INFO    MainThread:8416 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-06-16 08:12:00,957 INFO    MainThread:8416 [wandb_init.py:_jupyter_teardown():435] cleaning up jupyter logic
+2023-06-16 08:12:00,957 INFO    MainThread:8416 [wandb_run.py:_atexit_cleanup():2124] got exitcode: 0
+2023-06-16 08:12:00,957 INFO    MainThread:8416 [wandb_run.py:_restore():2107] restore
+2023-06-16 08:12:00,957 INFO    MainThread:8416 [wandb_run.py:_restore():2113] restore done
+2023-06-16 08:12:08,226 INFO    MainThread:8416 [wandb_run.py:_footer_history_summary_info():3467] rendering history
+2023-06-16 08:12:08,227 INFO    MainThread:8416 [wandb_run.py:_footer_history_summary_info():3499] rendering summary
+2023-06-16 08:12:08,285 INFO    MainThread:8416 [wandb_run.py:_footer_sync_info():3426] logging synced files
