@@ -1,0 +1,216 @@
+[I 2023-06-16 08:05:42,434] A new study created in memory with name: no-name-c37814e0-eda5-4498-b9f6-7abcdc5b4601
+[W 2023-06-16 08:05:42,451] Trial 0 failed with parameters: {'learning_rate': 0.00480603575623285} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,456] Trial 0 failed with value None.
+[W 2023-06-16 08:05:42,464] Trial 1 failed with parameters: {'learning_rate': 0.008419312521691756} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,468] Trial 1 failed with value None.
+[W 2023-06-16 08:05:42,474] Trial 2 failed with parameters: {'learning_rate': 0.09966164104630239} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,476] Trial 2 failed with value None.
+[W 2023-06-16 08:05:42,483] Trial 3 failed with parameters: {'learning_rate': 0.0005988857137281432} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,489] Trial 3 failed with value None.
+[W 2023-06-16 08:05:42,494] Trial 4 failed with parameters: {'learning_rate': 0.0031159658530580704} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,498] Trial 4 failed with value None.
+[W 2023-06-16 08:05:42,500] Trial 5 failed with parameters: {'learning_rate': 0.05099058155011809} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,505] Trial 5 failed with value None.
+[W 2023-06-16 08:05:42,514] Trial 6 failed with parameters: {'learning_rate': 0.04146431622428654} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,514] Trial 6 failed with value None.
+[W 2023-06-16 08:05:42,522] Trial 7 failed with parameters: {'learning_rate': 0.0009711372136002512} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,527] Trial 7 failed with value None.
+[W 2023-06-16 08:05:42,533] Trial 8 failed with parameters: {'learning_rate': 0.00016413341639693075} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,537] Trial 8 failed with value None.
+[W 2023-06-16 08:05:42,545] Trial 9 failed with parameters: {'learning_rate': 0.00043591140813573374} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,549] Trial 9 failed with value None.
+[W 2023-06-16 08:05:42,557] Trial 10 failed with parameters: {'learning_rate': 0.04050330891350134} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,560] Trial 10 failed with value None.
+[W 2023-06-16 08:05:42,569] Trial 11 failed with parameters: {'learning_rate': 0.004144281431679569} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,569] Trial 11 failed with value None.
+[W 2023-06-16 08:05:42,577] Trial 12 failed with parameters: {'learning_rate': 2.604586142779344e-05} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,581] Trial 12 failed with value None.
+[W 2023-06-16 08:05:42,589] Trial 13 failed with parameters: {'learning_rate': 3.884333181323398e-05} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,593] Trial 13 failed with value None.
+[W 2023-06-16 08:05:42,601] Trial 14 failed with parameters: {'learning_rate': 2.7959460231119722e-05} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,609] Trial 14 failed with value None.
+[W 2023-06-16 08:05:42,615] Trial 15 failed with parameters: {'learning_rate': 0.0007621932915807112} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,619] Trial 15 failed with value None.
+[W 2023-06-16 08:05:42,625] Trial 16 failed with parameters: {'learning_rate': 0.004828035384328509} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,625] Trial 16 failed with value None.
+[W 2023-06-16 08:05:42,633] Trial 17 failed with parameters: {'learning_rate': 0.036412785284637865} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,637] Trial 17 failed with value None.
+[W 2023-06-16 08:05:42,644] Trial 18 failed with parameters: {'learning_rate': 0.003193206889342081} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,648] Trial 18 failed with value None.
+[W 2023-06-16 08:05:42,658] Trial 19 failed with parameters: {'learning_rate': 0.04094380387932702} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,659] Trial 19 failed with value None.
+[W 2023-06-16 08:05:42,667] Trial 20 failed with parameters: {'learning_rate': 0.011234703589231327} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,671] Trial 20 failed with value None.
+[W 2023-06-16 08:05:42,679] Trial 21 failed with parameters: {'learning_rate': 0.06093497517247443} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,683] Trial 21 failed with value None.
+[W 2023-06-16 08:05:42,691] Trial 22 failed with parameters: {'learning_rate': 2.739973720308375e-05} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,695] Trial 22 failed with value None.
+[W 2023-06-16 08:05:42,703] Trial 23 failed with parameters: {'learning_rate': 0.0002049919111968704} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,703] Trial 23 failed with value None.
+[W 2023-06-16 08:05:42,711] Trial 24 failed with parameters: {'learning_rate': 7.913397581678289e-05} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,715] Trial 24 failed with value None.
+[W 2023-06-16 08:05:42,724] Trial 25 failed with parameters: {'learning_rate': 0.007800369455864964} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,728] Trial 25 failed with value None.
+[W 2023-06-16 08:05:42,737] Trial 26 failed with parameters: {'learning_rate': 0.025340608054122415} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,741] Trial 26 failed with value None.
+[W 2023-06-16 08:05:42,750] Trial 27 failed with parameters: {'learning_rate': 0.0004541924346936665} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,750] Trial 27 failed with value None.
+[W 2023-06-16 08:05:42,759] Trial 28 failed with parameters: {'learning_rate': 0.005744904088902117} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,763] Trial 28 failed with value None.
+[W 2023-06-16 08:05:42,771] Trial 29 failed with parameters: {'learning_rate': 0.08623982413285294} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,775] Trial 29 failed with value None.
+[W 2023-06-16 08:05:42,779] Trial 30 failed with parameters: {'learning_rate': 0.00018419530232718207} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,783] Trial 30 failed with value None.
+[W 2023-06-16 08:05:42,792] Trial 31 failed with parameters: {'learning_rate': 4.366500364592477e-05} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,796] Trial 31 failed with value None.
+[W 2023-06-16 08:05:42,805] Trial 32 failed with parameters: {'learning_rate': 0.0157568874850567} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,807] Trial 32 failed with value None.
+[W 2023-06-16 08:05:42,811] Trial 33 failed with parameters: {'learning_rate': 0.00015749280596590452} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,815] Trial 33 failed with value None.
+[W 2023-06-16 08:05:42,823] Trial 34 failed with parameters: {'learning_rate': 0.0001617352474589842} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,827] Trial 34 failed with value None.
+[W 2023-06-16 08:05:42,829] Trial 35 failed with parameters: {'learning_rate': 0.0030485734036257823} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,829] Trial 35 failed with value None.
+[W 2023-06-16 08:05:42,840] Trial 36 failed with parameters: {'learning_rate': 0.01996796865195234} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,840] Trial 36 failed with value None.
+[W 2023-06-16 08:05:42,854] Trial 37 failed with parameters: {'learning_rate': 0.00015104470191973325} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,854] Trial 37 failed with value None.
+[W 2023-06-16 08:05:42,862] Trial 38 failed with parameters: {'learning_rate': 0.0016978686490999124} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,866] Trial 38 failed with value None.
+[W 2023-06-16 08:05:42,873] Trial 39 failed with parameters: {'learning_rate': 0.001097884784723325} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,877] Trial 39 failed with value None.
+[W 2023-06-16 08:05:42,881] Trial 40 failed with parameters: {'learning_rate': 0.011253791551576717} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,886] Trial 40 failed with value None.
+[W 2023-06-16 08:05:42,896] Trial 41 failed with parameters: {'learning_rate': 0.03014467487249641} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,899] Trial 41 failed with value None.
+[W 2023-06-16 08:05:42,906] Trial 42 failed with parameters: {'learning_rate': 0.000205218406021905} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,910] Trial 42 failed with value None.
+[W 2023-06-16 08:05:42,917] Trial 43 failed with parameters: {'learning_rate': 0.00020573108479310075} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,921] Trial 43 failed with value None.
+[W 2023-06-16 08:05:42,928] Trial 44 failed with parameters: {'learning_rate': 0.037802312165322184} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,931] Trial 44 failed with value None.
+[W 2023-06-16 08:05:42,939] Trial 45 failed with parameters: {'learning_rate': 0.08883850250545591} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,943] Trial 45 failed with value None.
+[W 2023-06-16 08:05:42,953] Trial 46 failed with parameters: {'learning_rate': 0.0028869804180312324} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,957] Trial 46 failed with value None.
+[W 2023-06-16 08:05:42,965] Trial 47 failed with parameters: {'learning_rate': 0.0001061999822464538} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,969] Trial 47 failed with value None.
+[W 2023-06-16 08:05:42,976] Trial 48 failed with parameters: {'learning_rate': 0.0003379691669470809} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,980] Trial 48 failed with value None.
+[W 2023-06-16 08:05:42,988] Trial 49 failed with parameters: {'learning_rate': 0.0002351031043287273} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:42,990] Trial 49 failed with value None.
+[W 2023-06-16 08:05:42,999] Trial 50 failed with parameters: {'learning_rate': 0.0003003011864670969} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,002] Trial 50 failed with value None.
+[W 2023-06-16 08:05:43,011] Trial 51 failed with parameters: {'learning_rate': 0.04625107256007357} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,014] Trial 51 failed with value None.
+[W 2023-06-16 08:05:43,022] Trial 52 failed with parameters: {'learning_rate': 0.0011676821277183203} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,025] Trial 52 failed with value None.
+[W 2023-06-16 08:05:43,033] Trial 53 failed with parameters: {'learning_rate': 0.005366666876852838} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,036] Trial 53 failed with value None.
+[W 2023-06-16 08:05:43,044] Trial 54 failed with parameters: {'learning_rate': 1.3835780799437457e-05} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,047] Trial 54 failed with value None.
+[W 2023-06-16 08:05:43,056] Trial 55 failed with parameters: {'learning_rate': 0.003135849914328052} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,059] Trial 55 failed with value None.
+[W 2023-06-16 08:05:43,065] Trial 56 failed with parameters: {'learning_rate': 2.3315866208469898e-05} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,069] Trial 56 failed with value None.
+[W 2023-06-16 08:05:43,078] Trial 57 failed with parameters: {'learning_rate': 0.05485423963673647} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,081] Trial 57 failed with value None.
+[W 2023-06-16 08:05:43,088] Trial 58 failed with parameters: {'learning_rate': 0.00035374590843837946} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,091] Trial 58 failed with value None.
+[W 2023-06-16 08:05:43,099] Trial 59 failed with parameters: {'learning_rate': 0.0011847896782103489} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,102] Trial 59 failed with value None.
+[W 2023-06-16 08:05:43,112] Trial 60 failed with parameters: {'learning_rate': 2.9910254720747516e-05} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,116] Trial 60 failed with value None.
+[W 2023-06-16 08:05:43,124] Trial 61 failed with parameters: {'learning_rate': 0.0013328848143933953} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,128] Trial 61 failed with value None.
+[W 2023-06-16 08:05:43,136] Trial 62 failed with parameters: {'learning_rate': 0.00026564360459212157} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,140] Trial 62 failed with value None.
+[W 2023-06-16 08:05:43,148] Trial 63 failed with parameters: {'learning_rate': 0.001070043866234426} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,150] Trial 63 failed with value None.
+[W 2023-06-16 08:05:43,160] Trial 64 failed with parameters: {'learning_rate': 0.0021245300735308827} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,160] Trial 64 failed with value None.
+[W 2023-06-16 08:05:43,168] Trial 65 failed with parameters: {'learning_rate': 0.002238156130542877} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,174] Trial 65 failed with value None.
+[W 2023-06-16 08:05:43,182] Trial 66 failed with parameters: {'learning_rate': 0.057722225740960593} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,186] Trial 66 failed with value None.
+[W 2023-06-16 08:05:43,195] Trial 67 failed with parameters: {'learning_rate': 3.2531689879996375e-05} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,200] Trial 67 failed with value None.
+[W 2023-06-16 08:05:43,204] Trial 68 failed with parameters: {'learning_rate': 0.00022847038212094804} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,209] Trial 68 failed with value None.
+[W 2023-06-16 08:05:43,216] Trial 69 failed with parameters: {'learning_rate': 0.0014912474358833774} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,220] Trial 69 failed with value None.
+[W 2023-06-16 08:05:43,228] Trial 70 failed with parameters: {'learning_rate': 0.00029405577409117976} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,232] Trial 70 failed with value None.
+[W 2023-06-16 08:05:43,241] Trial 71 failed with parameters: {'learning_rate': 0.009949623224118194} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,241] Trial 71 failed with value None.
+[W 2023-06-16 08:05:43,249] Trial 72 failed with parameters: {'learning_rate': 0.034000394560915526} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,254] Trial 72 failed with value None.
+[W 2023-06-16 08:05:43,262] Trial 73 failed with parameters: {'learning_rate': 0.00021360970680838517} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,262] Trial 73 failed with value None.
+[W 2023-06-16 08:05:43,269] Trial 74 failed with parameters: {'learning_rate': 0.01810323640142791} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,276] Trial 74 failed with value None.
+[W 2023-06-16 08:05:43,282] Trial 75 failed with parameters: {'learning_rate': 0.0006657645260400376} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,284] Trial 75 failed with value None.
+[W 2023-06-16 08:05:43,291] Trial 76 failed with parameters: {'learning_rate': 0.019494257516943333} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,295] Trial 76 failed with value None.
+[W 2023-06-16 08:05:43,303] Trial 77 failed with parameters: {'learning_rate': 6.656793630646877e-05} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,303] Trial 77 failed with value None.
+[W 2023-06-16 08:05:43,312] Trial 78 failed with parameters: {'learning_rate': 0.0002287373349460922} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,312] Trial 78 failed with value None.
+[W 2023-06-16 08:05:43,320] Trial 79 failed with parameters: {'learning_rate': 0.0033935063521109963} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,325] Trial 79 failed with value None.
+[W 2023-06-16 08:05:43,329] Trial 80 failed with parameters: {'learning_rate': 1.9082301201348037e-05} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,333] Trial 80 failed with value None.
+[W 2023-06-16 08:05:43,341] Trial 81 failed with parameters: {'learning_rate': 0.006245286011747654} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,341] Trial 81 failed with value None.
+[W 2023-06-16 08:05:43,349] Trial 82 failed with parameters: {'learning_rate': 0.08417139396181549} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,354] Trial 82 failed with value None.
+[W 2023-06-16 08:05:43,360] Trial 83 failed with parameters: {'learning_rate': 2.485545258740808e-05} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,364] Trial 83 failed with value None.
+[W 2023-06-16 08:05:43,372] Trial 84 failed with parameters: {'learning_rate': 0.003565567882326712} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,376] Trial 84 failed with value None.
+[W 2023-06-16 08:05:43,384] Trial 85 failed with parameters: {'learning_rate': 0.0015322127951186415} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,388] Trial 85 failed with value None.
+[W 2023-06-16 08:05:43,396] Trial 86 failed with parameters: {'learning_rate': 0.06095060296767509} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,396] Trial 86 failed with value None.
+[W 2023-06-16 08:05:43,404] Trial 87 failed with parameters: {'learning_rate': 1.5624267584149816e-05} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,404] Trial 87 failed with value None.
+[W 2023-06-16 08:05:43,414] Trial 88 failed with parameters: {'learning_rate': 0.001957607886398196} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,417] Trial 88 failed with value None.
+[W 2023-06-16 08:05:43,424] Trial 89 failed with parameters: {'learning_rate': 0.019181307976464078} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,427] Trial 89 failed with value None.
+[W 2023-06-16 08:05:43,432] Trial 90 failed with parameters: {'learning_rate': 9.250229620294561e-05} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,436] Trial 90 failed with value None.
+[W 2023-06-16 08:05:43,439] Trial 91 failed with parameters: {'learning_rate': 0.03550623395755278} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,444] Trial 91 failed with value None.
+[W 2023-06-16 08:05:43,450] Trial 92 failed with parameters: {'learning_rate': 0.002473674923845499} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,454] Trial 92 failed with value None.
+[W 2023-06-16 08:05:43,464] Trial 93 failed with parameters: {'learning_rate': 0.0001157987848831578} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,464] Trial 93 failed with value None.
+[W 2023-06-16 08:05:43,473] Trial 94 failed with parameters: {'learning_rate': 0.00022682652384644646} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,477] Trial 94 failed with value None.
+[W 2023-06-16 08:05:43,486] Trial 95 failed with parameters: {'learning_rate': 0.004789271962918029} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,490] Trial 95 failed with value None.
+[W 2023-06-16 08:05:43,496] Trial 96 failed with parameters: {'learning_rate': 0.00818830326663663} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,499] Trial 96 failed with value None.
+[W 2023-06-16 08:05:43,509] Trial 97 failed with parameters: {'learning_rate': 0.028254759084588067} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,511] Trial 97 failed with value None.
+[W 2023-06-16 08:05:43,519] Trial 98 failed with parameters: {'learning_rate': 0.005893173468079629} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,523] Trial 98 failed with value None.
+[W 2023-06-16 08:05:43,531] Trial 99 failed with parameters: {'learning_rate': 0.001815410526363042} because of the following error: The value None could not be cast to float..
+[W 2023-06-16 08:05:43,531] Trial 99 failed with value None.
+Note: you may need to restart the kernel to use updated packages.
+Note: you may need to restart the kernel to use updated packages.Requirement already satisfied: optuna in c:\users\caiay\appdata\local\programs\python\python310\lib\site-packages (3.2.0)
+Requirement already satisfied: alembic>=1.5.0 in c:\users\caiay\appdata\local\programs\python\python310\lib\site-packages (from optuna) (1.11.1)
+Requirement already satisfied: cmaes>=0.9.1 in c:\users\caiay\appdata\local\programs\python\python310\lib\site-packages (from optuna) (0.9.1)
+Requirement already satisfied: colorlog in c:\users\caiay\appdata\local\programs\python\python310\lib\site-packages (from optuna) (6.7.0)
+Requirement already satisfied: numpy in c:\users\caiay\appdata\local\programs\python\python310\lib\site-packages (from optuna) (1.24.3)
+Requirement already satisfied: packaging>=20.0 in c:\users\caiay\appdata\roaming\python\python310\site-packages (from optuna) (23.1)
+Requirement already satisfied: sqlalchemy>=1.3.0 in c:\users\caiay\appdata\local\programs\python\python310\lib\site-packages (from optuna) (2.0.16)
+Requirement already satisfied: tqdm in c:\users\caiay\appdata\local\programs\python\python310\lib\site-packages (from optuna) (4.65.0)
+Requirement already satisfied: PyYAML in c:\users\caiay\appdata\local\programs\python\python310\lib\site-packages (from optuna) (6.0)
+Requirement already satisfied: Mako in c:\users\caiay\appdata\local\programs\python\python310\lib\site-packages (from alembic>=1.5.0->optuna) (1.2.4)
+Requirement already satisfied: typing-extensions>=4 in c:\users\caiay\appdata\local\programs\python\python310\lib\site-packages (from alembic>=1.5.0->optuna) (4.6.3)
+Requirement already satisfied: greenlet!=0.4.17 in c:\users\caiay\appdata\local\programs\python\python310\lib\site-packages (from sqlalchemy>=1.3.0->optuna) (2.0.2)
+Requirement already satisfied: colorama in c:\users\caiay\appdata\local\programs\python\python310\lib\site-packages (from colorlog->optuna) (0.4.6)
+Requirement already satisfied: MarkupSafe>=0.9.2 in c:\users\caiay\appdata\local\programs\python\python310\lib\site-packages (from Mako->alembic>=1.5.0->optuna) (2.1.3)

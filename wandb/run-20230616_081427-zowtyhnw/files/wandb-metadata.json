@@ -1,0 +1,41 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.10.8",
+    "heartbeatAt": "2023-06-16T12:14:37.076072",
+    "startedAt": "2023-06-16T12:14:27.926019",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/CaiaG/tasks.git",
+        "commit": "f32b5d0a46cc127f4188ad584f302c2f663aeae4"
+    },
+    "email": "caiaygelli@gmail.com",
+    "root": "C:/Users/caiay/Downloads/blah blah",
+    "host": "LAPTOP-623ONVR4",
+    "username": "caiay",
+    "executable": "c:\\Users\\caiay\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2419.0,
+        "min": 0.0,
+        "max": 2419.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2419.0,
+            "min": 0.0,
+            "max": 2419.0
+        }
+    ],
+    "disk": {
+        "total": 237.68358993530273,
+        "used": 119.65265274047852
+    },
+    "memory": {
+        "total": 7.767570495605469
+    }
+}

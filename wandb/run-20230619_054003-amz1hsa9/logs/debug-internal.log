@@ -1,0 +1,5 @@
+2023-06-19 05:40:12,488 INFO    StreamThr :16640 [internal.py:wandb_internal():86] W&B internal server running at pid: 16640, started at: 2023-06-19 05:40:12.485958
+2023-06-19 05:40:12,491 DEBUG   HandlerThread:16640 [handler.py:handle_request():144] handle_request: status
+2023-06-19 05:40:12,494 INFO    WriterThread:16640 [datastore.py:open_for_write():85] open: c:\Users\caiay\Downloads\blah blah\wandb\run-20230619_054003-amz1hsa9\run-amz1hsa9.wandb
+2023-06-19 05:40:12,497 DEBUG   SenderThread:16640 [sender.py:send():369] send: header
+2023-06-19 05:40:12,620 DEBUG   SenderThread:16640 [sender.py:send():369] send: run

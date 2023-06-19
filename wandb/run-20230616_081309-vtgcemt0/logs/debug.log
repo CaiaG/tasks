@@ -1,0 +1,80 @@
+2023-06-16 08:13:09,078 INFO    MainThread:8416 [wandb_setup.py:_flush():76] Current SDK version is 0.15.4
+2023-06-16 08:13:09,078 INFO    MainThread:8416 [wandb_setup.py:_flush():76] Configure stats pid to 8416
+2023-06-16 08:13:09,078 INFO    MainThread:8416 [wandb_setup.py:_flush():76] Loading settings from C:\Users\caiay\.config\wandb\settings
+2023-06-16 08:13:09,078 INFO    MainThread:8416 [wandb_setup.py:_flush():76] Loading settings from c:\Users\caiay\Downloads\blah blah\wandb\settings
+2023-06-16 08:13:09,078 INFO    MainThread:8416 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-06-16 08:13:09,078 INFO    MainThread:8416 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-06-16 08:13:09,078 INFO    MainThread:8416 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-06-16 08:13:09,078 INFO    MainThread:8416 [wandb_init.py:_log_setup():507] Logging user logs to c:\Users\caiay\Downloads\blah blah\wandb\run-20230616_081309-vtgcemt0\logs\debug.log
+2023-06-16 08:13:09,078 INFO    MainThread:8416 [wandb_init.py:_log_setup():508] Logging internal logs to c:\Users\caiay\Downloads\blah blah\wandb\run-20230616_081309-vtgcemt0\logs\debug-internal.log
+2023-06-16 08:13:09,078 INFO    MainThread:8416 [wandb_init.py:init():547] calling init triggers
+2023-06-16 08:13:09,078 INFO    MainThread:8416 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.02, 'architecture': 'DCNN', 'dataset': 'CIFAR-10', 'epochs': 7}
+2023-06-16 08:13:09,078 INFO    MainThread:8416 [wandb_init.py:init():571] re-initializing run, found existing run on stack: ndm0j26a
+2023-06-16 08:13:09,082 INFO    MainThread:8416 [wandb_run.py:_finish():1890] finishing run teamgelli/my-awesome-project/ndm0j26a
+2023-06-16 08:13:09,082 ERROR   MainThread:8416 [jupyter.py:save_history():437] Run pip install nbformat to save notebook history
+2023-06-16 08:13:09,082 INFO    MainThread:8416 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-06-16 08:13:09,082 INFO    MainThread:8416 [wandb_init.py:_jupyter_teardown():435] cleaning up jupyter logic
+2023-06-16 08:13:09,082 INFO    MainThread:8416 [wandb_run.py:_atexit_cleanup():2124] got exitcode: 0
+2023-06-16 08:13:09,086 INFO    MainThread:8416 [wandb_run.py:_restore():2107] restore
+2023-06-16 08:13:09,086 INFO    MainThread:8416 [wandb_run.py:_restore():2113] restore done
+2023-06-16 08:13:14,714 INFO    MainThread:8416 [wandb_run.py:_footer_history_summary_info():3467] rendering history
+2023-06-16 08:13:14,715 INFO    MainThread:8416 [wandb_run.py:_footer_history_summary_info():3499] rendering summary
+2023-06-16 08:13:14,723 INFO    MainThread:8416 [wandb_run.py:_footer_sync_info():3426] logging synced files
+2023-06-16 08:13:14,860 INFO    MainThread:8416 [wandb_init.py:init():596] starting backend
+2023-06-16 08:13:14,860 INFO    MainThread:8416 [wandb_init.py:init():600] setting up manager
+2023-06-16 08:13:14,860 INFO    MainThread:8416 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-06-16 08:13:14,865 INFO    MainThread:8416 [wandb_init.py:init():606] backend started and connected
+2023-06-16 08:13:14,870 INFO    MainThread:8416 [wandb_run.py:_label_probe_notebook():1235] probe notebook
+2023-06-16 08:13:14,870 INFO    MainThread:8416 [wandb_run.py:_label_probe_notebook():1245] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-06-16 08:13:14,870 INFO    MainThread:8416 [wandb_init.py:init():703] updated telemetry
+2023-06-16 08:13:14,999 INFO    MainThread:8416 [wandb_init.py:init():736] communicating run to backend with 60.0 second timeout
+2023-06-16 08:13:16,550 INFO    MainThread:8416 [wandb_run.py:_on_init():2176] communicating current version
+2023-06-16 08:13:17,353 INFO    MainThread:8416 [wandb_run.py:_on_init():2185] got version response 
+2023-06-16 08:13:17,353 INFO    MainThread:8416 [wandb_init.py:init():787] starting run threads in backend
+2023-06-16 08:13:17,659 INFO    MainThread:8416 [wandb_run.py:_console_start():2155] atexit reg
+2023-06-16 08:13:17,659 INFO    MainThread:8416 [wandb_run.py:_redirect():2010] redirect: SettingsConsole.WRAP_RAW
+2023-06-16 08:13:17,659 INFO    MainThread:8416 [wandb_run.py:_redirect():2075] Wrapping output streams.
+2023-06-16 08:13:17,659 INFO    MainThread:8416 [wandb_run.py:_redirect():2100] Redirects installed.
+2023-06-16 08:13:17,659 INFO    MainThread:8416 [wandb_init.py:init():828] run started, returning control to user process
+2023-06-16 08:13:17,664 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 3.171561204378862e-05 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595E1E47F0>>
+2023-06-16 08:13:17,664 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 3.171561204378862e-05 None
+2023-06-16 08:13:17,664 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 1.1221737488973124e-05 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595E1E47F0>>
+2023-06-16 08:13:17,668 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 1.1221737488973124e-05 None
+2023-06-16 08:13:17,674 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.045095764304186145 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595E1E47F0>>
+2023-06-16 08:13:17,674 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.045095764304186145 None
+2023-06-16 08:13:17,674 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.004143499138220784 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595E1E47F0>>
+2023-06-16 08:13:17,674 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.004143499138220784 None
+2023-06-16 08:13:17,678 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 9.017026175473898e-05 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595E1E47F0>>
+2023-06-16 08:13:17,678 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 9.017026175473898e-05 None
+2023-06-16 08:13:17,682 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.015268875077967278 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595E1E47F0>>
+2023-06-16 08:13:17,682 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.015268875077967278 None
+2023-06-16 08:13:17,687 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 3.6581294834971474e-05 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595E1E47F0>>
+2023-06-16 08:13:17,687 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 3.6581294834971474e-05 None
+2023-06-16 08:13:17,695 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.0004033296577734888 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595E1E47F0>>
+2023-06-16 08:13:17,695 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.0004033296577734888 None
+2023-06-16 08:13:17,695 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.00032568672769556125 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595E1E47F0>>
+2023-06-16 08:13:17,695 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.00032568672769556125 None
+2023-06-16 08:13:17,699 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.007464479239812579 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595E1E47F0>>
+2023-06-16 08:13:17,699 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.007464479239812579 None
+2023-06-16 08:14:27,934 INFO    MainThread:8416 [wandb_setup.py:_flush():76] Current SDK version is 0.15.4
+2023-06-16 08:14:27,934 INFO    MainThread:8416 [wandb_setup.py:_flush():76] Configure stats pid to 8416
+2023-06-16 08:14:27,934 INFO    MainThread:8416 [wandb_setup.py:_flush():76] Loading settings from C:\Users\caiay\.config\wandb\settings
+2023-06-16 08:14:27,934 INFO    MainThread:8416 [wandb_setup.py:_flush():76] Loading settings from c:\Users\caiay\Downloads\blah blah\wandb\settings
+2023-06-16 08:14:27,934 INFO    MainThread:8416 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-06-16 08:14:27,934 INFO    MainThread:8416 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-06-16 08:14:27,934 INFO    MainThread:8416 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-06-16 08:14:27,936 INFO    MainThread:8416 [wandb_init.py:_log_setup():507] Logging user logs to c:\Users\caiay\Downloads\blah blah\wandb\run-20230616_081427-zowtyhnw\logs\debug.log
+2023-06-16 08:14:27,936 INFO    MainThread:8416 [wandb_init.py:_log_setup():508] Logging internal logs to c:\Users\caiay\Downloads\blah blah\wandb\run-20230616_081427-zowtyhnw\logs\debug-internal.log
+2023-06-16 08:14:27,936 INFO    MainThread:8416 [wandb_init.py:_jupyter_setup():453] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001595E124F70>
+2023-06-16 08:14:27,936 INFO    MainThread:8416 [wandb_init.py:init():547] calling init triggers
+2023-06-16 08:14:27,936 INFO    MainThread:8416 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.02, 'architecture': 'DCNN', 'dataset': 'CIFAR-10', 'epochs': 7}
+2023-06-16 08:14:27,936 INFO    MainThread:8416 [wandb_init.py:init():571] re-initializing run, found existing run on stack: vtgcemt0
+2023-06-16 08:14:27,940 INFO    MainThread:8416 [wandb_run.py:_finish():1890] finishing run teamgelli/my-awesome-project/vtgcemt0
+2023-06-16 08:14:27,941 INFO    MainThread:8416 [wandb_run.py:_atexit_cleanup():2124] got exitcode: 0
+2023-06-16 08:14:27,941 INFO    MainThread:8416 [wandb_run.py:_restore():2107] restore
+2023-06-16 08:14:27,941 INFO    MainThread:8416 [wandb_run.py:_restore():2113] restore done
+2023-06-16 08:14:33,437 INFO    MainThread:8416 [wandb_run.py:_footer_history_summary_info():3467] rendering history
+2023-06-16 08:14:33,437 INFO    MainThread:8416 [wandb_run.py:_footer_history_summary_info():3499] rendering summary
+2023-06-16 08:14:33,443 INFO    MainThread:8416 [wandb_run.py:_footer_sync_info():3426] logging synced files
