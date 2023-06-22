@@ -1,0 +1,40 @@
+2023-06-20 09:56:36,191 INFO    StreamThr :17060 [internal.py:wandb_internal():86] W&B internal server running at pid: 17060, started at: 2023-06-20 09:56:36.190274
+2023-06-20 09:56:36,193 DEBUG   HandlerThread:17060 [handler.py:handle_request():144] handle_request: status
+2023-06-20 09:56:36,193 INFO    WriterThread:17060 [datastore.py:open_for_write():85] open: c:\Users\caiay\Downloads\blah blah\wandb\run-20230620_095628-caii19mw\run-caii19mw.wandb
+2023-06-20 09:56:36,195 DEBUG   SenderThread:17060 [sender.py:send():369] send: header
+2023-06-20 09:56:36,195 DEBUG   SenderThread:17060 [sender.py:send():369] send: run
+2023-06-20 09:56:36,731 INFO    SenderThread:17060 [dir_watcher.py:__init__():211] watching files in: c:\Users\caiay\Downloads\blah blah\wandb\run-20230620_095628-caii19mw\files
+2023-06-20 09:56:36,732 INFO    SenderThread:17060 [sender.py:_start_run_threads():1100] run started: caii19mw with start time 1687269395.318713
+2023-06-20 09:56:36,735 DEBUG   SenderThread:17060 [sender.py:send_request():396] send_request: summary_record
+2023-06-20 09:56:36,737 INFO    SenderThread:17060 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-20 09:56:36,739 DEBUG   HandlerThread:17060 [handler.py:handle_request():144] handle_request: check_version
+2023-06-20 09:56:36,740 DEBUG   SenderThread:17060 [sender.py:send_request():396] send_request: check_version
+2023-06-20 09:56:36,922 DEBUG   HandlerThread:17060 [handler.py:handle_request():144] handle_request: run_start
+2023-06-20 09:56:36,933 DEBUG   HandlerThread:17060 [system_info.py:__init__():31] System info init
+2023-06-20 09:56:36,933 DEBUG   HandlerThread:17060 [system_info.py:__init__():46] System info init done
+2023-06-20 09:56:36,933 INFO    HandlerThread:17060 [system_monitor.py:start():181] Starting system monitor
+2023-06-20 09:56:36,935 INFO    SystemMonitor:17060 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-06-20 09:56:36,935 INFO    HandlerThread:17060 [system_monitor.py:probe():201] Collecting system info
+2023-06-20 09:56:36,951 INFO    SystemMonitor:17060 [interfaces.py:start():190] Started cpu monitoring
+2023-06-20 09:56:36,952 INFO    SystemMonitor:17060 [interfaces.py:start():190] Started disk monitoring
+2023-06-20 09:56:36,956 DEBUG   HandlerThread:17060 [system_info.py:probe():195] Probing system
+2023-06-20 09:56:36,973 INFO    SystemMonitor:17060 [interfaces.py:start():190] Started memory monitoring
+2023-06-20 09:56:36,984 INFO    SystemMonitor:17060 [interfaces.py:start():190] Started network monitoring
+2023-06-20 09:56:36,984 DEBUG   HandlerThread:17060 [system_info.py:_probe_git():180] Probing git
+2023-06-20 09:56:37,187 DEBUG   HandlerThread:17060 [system_info.py:_probe_git():188] Probing git done
+2023-06-20 09:56:37,187 DEBUG   HandlerThread:17060 [system_info.py:probe():240] Probing system done
+2023-06-20 09:56:37,187 DEBUG   HandlerThread:17060 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.10.8', 'heartbeatAt': '2023-06-20T13:56:36.957319', 'startedAt': '2023-06-20T13:56:28.139715', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/CaiaG/tasks.git', 'commit': '322d5d84bb0e3ff72cbcb7d294dd96cf4a0b5de1'}, 'email': 'caiaygelli@gmail.com', 'root': 'C:/Users/caiay/Downloads/blah blah', 'host': 'LAPTOP-623ONVR4', 'username': 'caiay', 'executable': 'c:\\Users\\caiay\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2419.0, 'min': 0.0, 'max': 2419.0}, 'cpu_freq_per_core': [{'current': 2419.0, 'min': 0.0, 'max': 2419.0}], 'disk': {'total': 237.68358993530273, 'used': 132.35976791381836}, 'memory': {'total': 7.767570495605469}}
+2023-06-20 09:56:37,187 INFO    HandlerThread:17060 [system_monitor.py:probe():211] Finished collecting system info
+2023-06-20 09:56:37,187 INFO    HandlerThread:17060 [system_monitor.py:probe():214] Publishing system info
+2023-06-20 09:56:37,187 DEBUG   HandlerThread:17060 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-06-20 09:56:37,189 DEBUG   HandlerThread:17060 [system_info.py:_save_pip():67] Saving pip packages done
+2023-06-20 09:56:37,191 INFO    HandlerThread:17060 [system_monitor.py:probe():216] Finished publishing system info
+2023-06-20 09:56:37,191 DEBUG   SenderThread:17060 [sender.py:send():369] send: files
+2023-06-20 09:56:37,191 INFO    SenderThread:17060 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2023-06-20 09:56:37,216 DEBUG   HandlerThread:17060 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-20 09:56:37,216 DEBUG   SenderThread:17060 [sender.py:send_request():396] send_request: stop_status
+2023-06-20 09:56:37,488 DEBUG   SenderThread:17060 [sender.py:send():369] send: telemetry
+2023-06-20 09:56:37,738 INFO    Thread-87 :17060 [dir_watcher.py:_on_file_created():272] file/dir created: c:\Users\caiay\Downloads\blah blah\wandb\run-20230620_095628-caii19mw\files\requirements.txt
+2023-06-20 09:56:37,738 INFO    Thread-87 :17060 [dir_watcher.py:_on_file_created():272] file/dir created: c:\Users\caiay\Downloads\blah blah\wandb\run-20230620_095628-caii19mw\files\wandb-summary.json
+2023-06-20 09:56:37,739 INFO    Thread-87 :17060 [dir_watcher.py:_on_file_created():272] file/dir created: c:\Users\caiay\Downloads\blah blah\wandb\run-20230620_095628-caii19mw\files\wandb-metadata.json
+2023-06-20 09:56:38,174 INFO    wandb-upload_0:17060 [upload_job.py:push():133] Uploaded file C:\Users\caiay\AppData\Local\Temp\tmprdyxatpowandb\0j7m6iwt-wandb-metadata.json

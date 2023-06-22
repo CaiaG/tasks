@@ -2,7 +2,7 @@ wandb_version: 1
 
 learning_rate:
   desc: null
-  value: 0.00010758111015124252
+  value: 0.08225272035842891
 architecture:
   desc: null
   value: DCNN
@@ -50,4 +50,4 @@ _wandb:
       - 5
 dropout_rate:
   desc: null
-  value: 0.3579861844634901
+  value: 0.3715458718097801
