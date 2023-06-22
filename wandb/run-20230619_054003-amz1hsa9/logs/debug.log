@@ -51,3 +51,25 @@ config: {'learning_rate': 0.02, 'architecture': 'DCNN', 'dataset': 'CIFAR-10', '
 2023-06-19 07:03:21,120 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.0002191185367478793 None
 2023-06-19 07:03:21,121 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set dropout_rate = 0.28188130592342114 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595E1F0970>>
 2023-06-19 07:03:21,121 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb dropout_rate 0.28188130592342114 None
+2023-06-19 07:25:00,992 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.030885685338495866 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595E1F0970>>
+2023-06-19 07:25:00,994 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.030885685338495866 None
+2023-06-19 07:25:00,995 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set dropout_rate = 0.10813865831440783 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595E1F0970>>
+2023-06-19 07:25:00,995 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb dropout_rate 0.10813865831440783 None
+2023-06-19 07:46:11,239 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.028780037225536223 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595E1F0970>>
+2023-06-19 07:46:11,242 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.028780037225536223 None
+2023-06-19 07:46:11,244 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set dropout_rate = 0.2295255139067653 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595E1F0970>>
+2023-06-19 07:46:11,244 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb dropout_rate 0.2295255139067653 None
+2023-06-19 08:07:04,805 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.0005534569928516209 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595E1F0970>>
+2023-06-19 08:07:04,807 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.0005534569928516209 None
+2023-06-19 08:07:04,809 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set dropout_rate = 0.23985322683450944 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595E1F0970>>
+2023-06-19 08:07:04,809 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb dropout_rate 0.23985322683450944 None
+2023-06-19 08:29:56,752 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 4.218766555468695e-05 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595E1F0970>>
+2023-06-19 08:29:56,755 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 4.218766555468695e-05 None
+2023-06-19 08:29:56,757 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set dropout_rate = 0.47927284864315906 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595E1F0970>>
+2023-06-19 08:29:56,757 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb dropout_rate 0.47927284864315906 None
+2023-06-19 08:52:36,738 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set learning_rate = 0.08225272035842891 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595E1F0970>>
+2023-06-19 08:52:36,740 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb learning_rate 0.08225272035842891 None
+2023-06-19 08:52:36,741 INFO    MainThread:8416 [wandb_config.py:__setitem__():152] config set dropout_rate = 0.3715458718097801 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001595E1F0970>>
+2023-06-19 08:52:36,742 INFO    MainThread:8416 [wandb_run.py:_config_callback():1283] config_cb dropout_rate 0.3715458718097801 None
+2023-06-19 08:57:40,728 INFO    MainThread:8416 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-06-19 08:57:40,728 INFO    MainThread:8416 [wandb_init.py:_pause_backend():418] pausing backend

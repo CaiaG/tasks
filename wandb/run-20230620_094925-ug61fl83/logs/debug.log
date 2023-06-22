@@ -1,0 +1,63 @@
+2023-06-20 09:49:25,156 INFO    MainThread:30076 [wandb_setup.py:_flush():76] Current SDK version is 0.15.4
+2023-06-20 09:49:25,156 INFO    MainThread:30076 [wandb_setup.py:_flush():76] Configure stats pid to 30076
+2023-06-20 09:49:25,157 INFO    MainThread:30076 [wandb_setup.py:_flush():76] Loading settings from C:\Users\caiay\.config\wandb\settings
+2023-06-20 09:49:25,157 INFO    MainThread:30076 [wandb_setup.py:_flush():76] Loading settings from c:\Users\caiay\Downloads\blah blah\wandb\settings
+2023-06-20 09:49:25,157 INFO    MainThread:30076 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-06-20 09:49:25,157 INFO    MainThread:30076 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-06-20 09:49:25,158 INFO    MainThread:30076 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-06-20 09:49:25,159 INFO    MainThread:30076 [wandb_init.py:_log_setup():507] Logging user logs to c:\Users\caiay\Downloads\blah blah\wandb\run-20230620_094925-ug61fl83\logs\debug.log
+2023-06-20 09:49:25,159 INFO    MainThread:30076 [wandb_init.py:_log_setup():508] Logging internal logs to c:\Users\caiay\Downloads\blah blah\wandb\run-20230620_094925-ug61fl83\logs\debug-internal.log
+2023-06-20 09:49:25,159 INFO    MainThread:30076 [wandb_init.py:_jupyter_setup():453] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000002A6312F0160>
+2023-06-20 09:49:25,161 INFO    MainThread:30076 [wandb_init.py:init():547] calling init triggers
+2023-06-20 09:49:25,161 INFO    MainThread:30076 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.02, 'architecture': 'U-Net', 'dataset': 'CITYSCAPES', 'epochs': 3}
+2023-06-20 09:49:25,162 INFO    MainThread:30076 [wandb_init.py:init():571] re-initializing run, found existing run on stack: xbaqc6hz
+2023-06-20 09:49:25,165 INFO    MainThread:30076 [wandb_run.py:_finish():1890] finishing run teamgelli/image-segmentation/xbaqc6hz
+2023-06-20 09:49:25,165 INFO    MainThread:30076 [wandb_run.py:_atexit_cleanup():2124] got exitcode: 0
+2023-06-20 09:49:25,165 INFO    MainThread:30076 [wandb_run.py:_restore():2107] restore
+2023-06-20 09:49:25,166 INFO    MainThread:30076 [wandb_run.py:_restore():2113] restore done
+2023-06-20 09:49:31,023 INFO    MainThread:30076 [wandb_run.py:_footer_history_summary_info():3467] rendering history
+2023-06-20 09:49:31,024 INFO    MainThread:30076 [wandb_run.py:_footer_history_summary_info():3499] rendering summary
+2023-06-20 09:49:31,030 INFO    MainThread:30076 [wandb_run.py:_footer_sync_info():3426] logging synced files
+2023-06-20 09:49:31,160 INFO    MainThread:30076 [wandb_init.py:init():596] starting backend
+2023-06-20 09:49:31,160 INFO    MainThread:30076 [wandb_init.py:init():600] setting up manager
+2023-06-20 09:49:31,164 INFO    MainThread:30076 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-06-20 09:49:31,167 INFO    MainThread:30076 [wandb_init.py:init():606] backend started and connected
+2023-06-20 09:49:31,174 INFO    MainThread:30076 [wandb_run.py:_label_probe_notebook():1235] probe notebook
+2023-06-20 09:49:31,174 INFO    MainThread:30076 [wandb_run.py:_label_probe_notebook():1245] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-06-20 09:49:31,174 INFO    MainThread:30076 [wandb_init.py:init():703] updated telemetry
+2023-06-20 09:49:31,248 INFO    MainThread:30076 [wandb_init.py:init():736] communicating run to backend with 60.0 second timeout
+2023-06-20 09:49:32,751 INFO    MainThread:30076 [wandb_run.py:_on_init():2176] communicating current version
+2023-06-20 09:49:32,888 INFO    MainThread:30076 [wandb_run.py:_on_init():2185] got version response 
+2023-06-20 09:49:32,888 INFO    MainThread:30076 [wandb_init.py:init():787] starting run threads in backend
+2023-06-20 09:49:33,128 INFO    MainThread:30076 [wandb_run.py:_console_start():2155] atexit reg
+2023-06-20 09:49:33,128 INFO    MainThread:30076 [wandb_run.py:_redirect():2010] redirect: SettingsConsole.WRAP_RAW
+2023-06-20 09:49:33,129 INFO    MainThread:30076 [wandb_run.py:_redirect():2075] Wrapping output streams.
+2023-06-20 09:49:33,129 INFO    MainThread:30076 [wandb_run.py:_redirect():2100] Redirects installed.
+2023-06-20 09:49:33,130 INFO    MainThread:30076 [wandb_init.py:init():828] run started, returning control to user process
+2023-06-20 09:49:33,212 INFO    MainThread:30076 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-06-20 09:49:33,212 INFO    MainThread:30076 [wandb_init.py:_pause_backend():418] pausing backend
+2023-06-20 09:53:58,795 INFO    MainThread:30076 [wandb_init.py:_resume_backend():423] resuming backend
+2023-06-20 09:53:58,849 INFO    MainThread:30076 [wandb_setup.py:_flush():76] Current SDK version is 0.15.4
+2023-06-20 09:53:58,849 INFO    MainThread:30076 [wandb_setup.py:_flush():76] Configure stats pid to 30076
+2023-06-20 09:53:58,849 INFO    MainThread:30076 [wandb_setup.py:_flush():76] Loading settings from C:\Users\caiay\.config\wandb\settings
+2023-06-20 09:53:58,849 INFO    MainThread:30076 [wandb_setup.py:_flush():76] Loading settings from c:\Users\caiay\Downloads\blah blah\wandb\settings
+2023-06-20 09:53:58,849 INFO    MainThread:30076 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-06-20 09:53:58,849 INFO    MainThread:30076 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-06-20 09:53:58,850 INFO    MainThread:30076 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-06-20 09:53:58,850 INFO    MainThread:30076 [wandb_init.py:_log_setup():507] Logging user logs to c:\Users\caiay\Downloads\blah blah\wandb\run-20230620_095358-mojv33bc\logs\debug.log
+2023-06-20 09:53:58,850 INFO    MainThread:30076 [wandb_init.py:_log_setup():508] Logging internal logs to c:\Users\caiay\Downloads\blah blah\wandb\run-20230620_095358-mojv33bc\logs\debug-internal.log
+2023-06-20 09:53:58,851 INFO    MainThread:30076 [wandb_init.py:init():547] calling init triggers
+2023-06-20 09:53:58,851 INFO    MainThread:30076 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.02, 'architecture': 'U-Net', 'dataset': 'CITYSCAPES', 'epochs': 3}
+2023-06-20 09:53:58,851 INFO    MainThread:30076 [wandb_init.py:init():571] re-initializing run, found existing run on stack: ug61fl83
+2023-06-20 09:53:58,859 INFO    MainThread:30076 [wandb_run.py:_finish():1890] finishing run teamgelli/image-segmentation/ug61fl83
+2023-06-20 09:53:58,863 ERROR   MainThread:30076 [jupyter.py:save_history():437] Run pip install nbformat to save notebook history
+2023-06-20 09:53:58,864 INFO    MainThread:30076 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-06-20 09:53:58,864 INFO    MainThread:30076 [wandb_init.py:_jupyter_teardown():435] cleaning up jupyter logic
+2023-06-20 09:53:58,864 INFO    MainThread:30076 [wandb_run.py:_atexit_cleanup():2124] got exitcode: 0
+2023-06-20 09:53:58,864 INFO    MainThread:30076 [wandb_run.py:_restore():2107] restore
+2023-06-20 09:53:58,864 INFO    MainThread:30076 [wandb_run.py:_restore():2113] restore done
+2023-06-20 09:54:03,723 INFO    MainThread:30076 [wandb_run.py:_footer_history_summary_info():3467] rendering history
+2023-06-20 09:54:03,724 INFO    MainThread:30076 [wandb_run.py:_footer_history_summary_info():3499] rendering summary
+2023-06-20 09:54:03,741 INFO    MainThread:30076 [wandb_run.py:_footer_sync_info():3426] logging synced files
